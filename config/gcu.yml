@@ -1,0 +1,167 @@
+application:
+  domain: HAQUESVILLE.shop
+  name: 'HAQUESVILLE Shop'
+  logo: RunningLope_BLACK.png
+  favicon: hacknet.ico
+  theme: deeppurple-amber
+  showVersionNumber: false
+  showGitHubLinks: false
+  localBackupEnabled: true
+  numberOfRandomFakeUsers: 42
+  altcoinName: Thunderco(i)n
+  privacyContactEmail: 'donotreply@dHAQUESVILLE.shop'
+  customMetricsPrefix: haquesvilleshop
+  chatBot:
+    name: 'ThunderBot'
+    greeting: "Hi there, hacker known as <customer-name>! I'm <bot-name>, the friendly chatbot of HAQUESVILLE."
+    defaultResponse: "Sorry, hacker! I couldn't reverse-engineer the meaning of your question."
+    avatar: ThunderChatBot.png
+  social:
+    blueSkyUrl: null
+    mastodonUrl: null
+    twitterUrl: null
+    facebookUrl: null
+    slackUrl: null
+    redditUrl: null
+    pressKitUrl: null
+    nftUrl: null
+    questionnaireUrl: null
+  recyclePage:
+    topProductImage: cap.png
+    bottomProductImage: basketball.png
+  welcomeBanner:
+    showOnFirstStart: false
+  cookieConsent:
+    message: 'HAQUESVILLE wants to be up-front and transparent with what happens to the information that is gathered when you interact [1] with us.'
+    dismissText: 'I trust you!'
+    linkText: 'HAQUESVILLE Privacy Policy'
+    linkUrl: null
+  securityTxt:
+    contact: 'mailto:donotreply@HAQUESVILLE.shop'
+    encryption: 'https://defcon.org/dtangent/The%20Dark%20Tangent%20(ECDSA%20p521%202021-2024)%20PGP%20PUBLIC.asc'
+    acknowledgements: null
+    hiring: ~
+    csaf: '/.well-known/csaf/provider-metadata.json'
+  easterEggPlanet:
+    name: Antelope
+    overlayMap: cap.png
+challenges:
+  overwriteUrlForProductTamperingChallenge: null
+  safetyMode: disabled
+hackingInstructor:
+  avatarImage: hackingInstructor.png
+products:
+  -
+    name: 'BasketBall'
+    price: 17
+    description: "Limited edition Basketball"
+    image: basketball.png
+    quantity: 0
+    reviews:
+      - { text: "Rad, dude!", author: rapper }
+      - { text: "Bounces clean on Bones' holo-court projector!", author: jim }
+      - { text: "Perfect for dunking on the Enterprise's rec room wall!", author: bender }
+  -
+    name: 'Baseball Cap'
+    price: 60
+    description: "Soft and breezy. Perfect for a day at the baseball game"
+    image: cap.png
+    reviews:
+      - { text: "Humans must really be color blind...", author: bender }
+      - { text: '0 st4rs f0r 7h3 h0rr1bl3 s7y13', author: uvogin }
+  -
+    name: 'Reusable Coffee Cup'
+    price: 60
+    description: "Fuel your next mission with the official HAQUESVILLE cup! Perfect for  late-night packet sniffs, or deep-dive exploits. Ideal for hackers and caffeine-powered rebels on the move."
+    image: coffee.png
+    reviews:
+      - { text: "Hope this cup's as hot as your latest exploit", author: bender }
+      - { text: '-1 st4rs f0r 3v3n m0r3 7h3 h0rr1bl3 s7y13', author: uvogin }
+  -
+    name: 'HAQUESVILLE Badge'
+    price: 540
+    description: "Show off your allegiance to HAQUESVILLE with this embroidered patch of honor!"
+    image: fabric.png
+    quantity: 3
+    reviews:
+      - { text: "Get one before I buy all of it", author: bjoernOwasp }
+  -
+    name: 'Unofficial Lanyard'
+    price: 31.95
+    description: "Keep your keys, badges, or USB payloads close with the official HAQUESVILLE lanyard! Made from durable woven fabric and stamped with bold lettering, it's built for hackers on the move"
+    image: lanyard.png
+  -
+    name: "Jigsaw Puzzle"
+    price: 31.95
+    description: "Piece together the chaos with the HAQUESVILLE 500-piece jigsaw puzzle! A perfect brain break for late-night hackers, this puzzle brings analog fun to your digital lair—no VPN required."
+    image: puzzle.png
+  -
+    name: 'Official HAQUESVILLE Shirt'
+    price: 200
+    deluxePrice: 160
+    description: "Rep the HAQUESVILLE mindset in this ultra-soft tee!"
+    image: shirt.png
+    quantity: 0
+    reviews:
+      - { text: "Pss-pss-pss!", author: bjoern }
+  -
+    name: 'HAQUESVILLE Tea Mug'
+    price: 71.64
+    description: "Brew up brilliance with the HAQUESVILLE ceramic tea mug! Built for deep thoughts and deeper exploits, it’s the ideal companion for your next recon session or late-night script binge."
+    image: mug.png
+  -
+    name: 'Lightweight Premium Hoodie'
+    description: 'An incredibly soft and relaxed hoodie, spun from a plush poly-cotton blend, will quickly become a go-to essential.'
+    price: 55
+    deluxePrice: 47
+    image: hoodie.png
+    urlForProductTamperingChallenge: hoodie.png
+  -
+    name: 'HAQUESVILLE Theme Pack'
+    description: 'Contains all products, and images for a fully immersed Overclock experience!'
+    price: 99.99
+    image: themepack.png
+    useForChristmasSpecialChallenge: true
+  -
+    name: 'Rippertuer Special Juice'
+    description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
+    price: 16.99
+    image: undefined.jpg
+    keywordsForPastebinDataLeakChallenge:
+      - hueteroneel
+      - eurogium edule
+  -
+    name: 'OWASP Juice Shop Logo (3D-printed)'
+    description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
+    price: 99.99
+    image: 3d_keychain.jpg # Exif metadata contains "OpenSCAD" as subtle hint...
+    deletedDate: '2025-05-12'
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
+    exifForBlueprintChallenge:
+      - OpenSCAD
+memories:
+  -
+    image: cap.png
+    caption: 'Image description'
+    user: admin
+  -
+    image: cap.png
+    caption: 'image description'
+    user: admin
+  -
+    image: 'favorite-hiking-place.png'
+    caption: 'I love going hiking here...'
+    geoStalkingMetaSecurityQuestion: 14
+    geoStalkingMetaSecurityAnswer: 'Daniel Boone National Forest'
+  -
+    image: cyberlope.png
+    caption: 'Lets see what you can find'
+    geoStalkingVisualSecurityQuestion: 10
+    geoStalkingVisualSecurityAnswer: 'Paint The Valley Purple'
+  -
+    image: spellcheckbee.png
+    caption: 'Spelling Bee was sooo 2018! Visit /#/bee-haven🐝 for NFT today!'
+    user: evm
+ctf:
+  showFlagsInNotifications: true
+
